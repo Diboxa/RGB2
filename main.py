@@ -17,7 +17,6 @@ import time
 #----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\----
 
 delay = 5
-token = "MTE5NDI5MDY2OTMwNTQ3NTEyMg.GDdCxs.xVtZhwt6W1iq-4uiZbd-1mepi6HDlpxhWqpgxU"
 g_id = 1182589258989584434
 r_id = 1194231106212462623
 
@@ -88,4 +87,4 @@ async def on_ready():
 #    [                             - Run The bot -                             ]
 #----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\----
 
-bot.run(token)
+bot.run(process.env.token)
