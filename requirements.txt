@@ -1,6 +1,0 @@
-discord
-asyncio
-colorsys
-colorama
-discord.ext
-time
